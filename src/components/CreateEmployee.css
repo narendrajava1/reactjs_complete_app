@@ -1,0 +1,63 @@
+
+.add-emp-box{
+    text-align: center;
+}
+.add-emp-form{
+    width: 750px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.add-emp-sub-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.add-emp-sub-box:focus{
+
+}
+.add-emp-sub-box label{
+    font-weight: bold;
+    /*display: flex;*/
+    margin-right: 20px;
+    text-align: left;
+    width: 120px;
+    color: orange;
+}
+
+.add-emp-sub-box input{
+    outline: none;
+    border: none;
+    font-size: 1rem;
+}
+
+.add-emp-sub-box input::placeholder{
+    color: orange;
+}
+.add-emp-sub-box input:focus{
+    border: 2px orangered solid;
+    caret-color: orangered;
+    color: orange;
+    box-shadow: 2px 2px 10px 2px orangered;
+}
+
+.btn{
+    color: orange;
+    background-color: orangered;
+    outline: none;
+    border: none;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    max-width: 150px;
+    display: flex;
+    margin-left: auto;
+    margin-right: 210px;
+}
+
+.btn:focus{
+    box-shadow: 2px 2px 10px 2px orangered;
+}

@@ -1,0 +1,29 @@
+.nav-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 2rem;
+    /*margin-top: 0.5rem;*/
+    background-color: #eecf8d;
+}
+.nav-box h1{
+    color: orangered;
+    background-color: orange;
+    /*border-radius: 50%;*/
+    /*height: 3rem;*/
+    /*width: 3rem;*/
+    font-size: 1.5rem;
+}
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin-right: 5rem;
+}
+
+.nav-link{
+
+    text-decoration: none;
+    color: orangered;
+}
+
